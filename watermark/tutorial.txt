@@ -1,0 +1,3 @@
+pip install pyinstaller within the current virtual environment
+
+$ pyinstaller --onefile --windowed main.py

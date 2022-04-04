@@ -1,0 +1,9 @@
+# How to integrate with Django
+
+1 when creating a project, generate a qrcode based on the page url
+the parameter of the url is the newly_created project id
+
+2 save the qrcode in the project model and save the project (an image field)
+
+3 retrieve the image in every detail page 
+
