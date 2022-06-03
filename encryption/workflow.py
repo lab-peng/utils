@@ -1,6 +1,7 @@
 # pip install rsa
 # pip install cryptography
 # https://www.youtube.com/watch?v=bd5nsMscPo0
+# https://dianadarie.medium.com/jwt-authentication-with-sha-and-rsa-307e272f913f   # JWT for Django Rest Framework
 import rsa
 from cryptography.fernet import Fernet 
 
