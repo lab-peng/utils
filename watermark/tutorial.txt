@@ -1,3 +1,7 @@
 pip install pyinstaller within the current virtual environment
 
 $ pyinstaller --onefile --windowed main.py
+$ pyinstaller -c --nowindowed --console main.py
+
+
+把使用说明, logo.png, 处理前文件夹(空)放到dist文件夹下, 然后打包发送给用户，用户解压即可使用
