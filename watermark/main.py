@@ -4,12 +4,14 @@ from os.path import splitext
 from pathlib import Path
 import shutil
 
-from PIL import Image, ImageOps
+from PIL import Image, ImageOps, ImageFile
 import filetype
 
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 # base_dir = Path(__file__).parent # for test running in the console
 base_dir = Path(__file__).parent.parent  # for running executable file
+print(base_dir)
 input_path = base_dir / '处理前'  
 out_path = base_dir / '处理后'
 print('复制文件中，请耐心等待...\n')

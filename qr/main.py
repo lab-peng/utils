@@ -2,7 +2,9 @@
 import qrcode
 
 # Link for website
-input_data = "https://towardsdatascience.com/face-detection-in-10-lines-for-beginners-1787aa1d9127"
+# input_data = "http://192.168.0.19:8000/live/searchmatch/人民路3188号1幢/"
+# input_data = '王**\n地铁1号线东段\nG0010202181'
+input_data = '轨道交通1号线东段'
 
 pk = 1
 #Creating an instance of qrcode
