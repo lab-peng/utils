@@ -41,7 +41,7 @@ decrypted_key = rsa.decrypt(encrypted_key, privkey)
 
 decrypted_data = cipher.decrypt(encrypted_data)
 
-print(decrypted_data.decode())
+print(decrypted_data.decode()[:100])
 try:
     rsa.verify(encrypted_key, signature, pubkey)
     # rsa.verify(encrypted_key, b'fake signature', pubkey)
